@@ -1,7 +1,7 @@
 package Assignment;
 
 import java.util.*;
-class Contact{
+class Contact {
     String name;
     String email;
     String PhoneNumber;
