@@ -144,7 +144,7 @@ public class ContactBook {
         }
 
         else {
-            System.out.println("That option is unavailable, please enter a valid number (from 1 to 3): ");
+            System.out.println("Option is unavailable, please enter a valid and existing option number! (from 1 to 3): ");
         }
 
 
@@ -188,6 +188,8 @@ public class ContactBook {
                     System.out.println("\nExiting Program!");
                     condition = false;
                     break;
+                default:
+                    System.out.println("Invalid input, please enter a number appropriate to the option list!");
 
             }
         }
